@@ -120,16 +120,11 @@ This project applies those principles in a simple and practical way by modeling 
 ## Screenshots
 
 ### Smart Home Menu
-![Menu](screenshots/menu.png)
+![Menu](screenshorts/menu.png)
 
 ### Changing Device Settings
-![Settings](screenshots/settings.png)
+![Settings](screenshorts/settings.png)
 
 ### All Device Status
-![Status](screenshots/status.png)
+![Status](screenshorts/status.png)
 
-## <small>How to Run the Project</small>
-
-### <small>Step 1: Compile</small>
-```bash
-g++ smart_home_menu.cpp -o smart_home
