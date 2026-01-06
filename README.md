@@ -117,6 +117,16 @@ This project applies those principles in a simple and practical way by modeling 
 🌟 Introduce scheduling (timers for devices)</small>
 
 ---
+## Screenshots
+
+### Smart Home Menu
+![Menu](screenshots/menu.png)
+
+### Changing Device Settings
+![Settings](screenshots/settings.png)
+
+### All Device Status
+![Status](screenshots/status.png)
 
 ## <small>How to Run the Project</small>
 
