@@ -120,11 +120,12 @@ This project applies those principles in a simple and practical way by modeling 
 ## Screenshots
 
 ### Smart Home Menu
-![Menu](screenshorts/menu.png)
+![Menu](screenshorts/menu.jpg)
 
 ### Changing Device Settings
-![Settings](screenshorts/settings.png)
+![Settings](screenshorts/settings.jpg)
 
 ### All Device Status
-![Status](screenshorts/status.png)
+![Status](screenshorts/status.jpg)
+
 
