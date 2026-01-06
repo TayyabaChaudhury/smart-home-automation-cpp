@@ -119,13 +119,21 @@ This project applies those principles in a simple and practical way by modeling 
 ---
 ## Screenshots
 
-### Smart Home Menu
-![Menu](screenshorts/menu.jpg)
+<div style="display: flex; justify-content: space-around; align-items: center;">
 
-### Changing Device Settings
-![Settings](screenshorts/settings.jpg)
+  <div>
+    <img src="screenshorts/menu.jpg" alt="Menu" width="250"/>
+    <p style="text-align:center;">Smart Home Menu</p>
+  </div>
 
-### All Device Status
-![Status](screenshorts/status.jpg)
+  <div>
+    <img src="screenshorts/settings.jpg" alt="Settings" width="250"/>
+    <p style="text-align:center;">Changing Device Settings</p>
+  </div>
 
+  <div>
+    <img src="screenshorts/status.jpg" alt="Status" width="250"/>
+    <p style="text-align:center;">All Device Status</p>
+  </div>
 
+</div>
