@@ -1,59 +1,61 @@
 # Smart Home Automation Simulator (C++)
 
-![C++](https://img.shields.io/badge/Language-C++-blue)
-![OOP](https://img.shields.io/badge/Concept-OOP-green)
-![Status](https://img.shields.io/badge/Project-Completed-success)
-![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
+<div style="float: right;">
+<img src="https://img.shields.io/badge/Language-C++-blue" alt="C++"/>
+<img src="https://img.shields.io/badge/Concept-OOP-green" alt="OOP"/>
+<img src="https://img.shields.io/badge/Project-Completed-success" alt="Status"/>
+<img src="https://img.shields.io/badge/Build-Passing-brightgreen" alt="Build"/>
+</div>
 
 ---
 
-## Project Description
+## <small>Project Description</small>
 
-The **Smart Home Automation Simulator** is a console-based C++ application designed to demonstrate core **Object-Oriented Programming (OOP)** principles through a real-world inspired problem.
+<small>The **Smart Home Automation Simulator** is a console-based C++ application designed to demonstrate core **Object-Oriented Programming (OOP)** principles through a real-world inspired problem.</small>
 
-This project simulates a basic smart home environment where different smart devices (Light, Fan, Thermostat) can be controlled through a **menu-driven interface**.  
-The codebase is structured to be **easy to read, extend, and maintain**, making it suitable for collaborative development and academic use.
+<small>This project simulates a basic smart home environment where different smart devices (Light, Fan, Thermostat) can be controlled through a **menu-driven interface**.  
+The codebase is structured to be **easy to read, extend, and maintain**, making it suitable for collaborative development and academic use.</small>
 
-This documentation is written so that **any new team member can understand the project without prior context**.
-
----
-
-## Introduction
-
-Modern software systems are built using object-oriented design to ensure modularity and scalability.  
-This project applies those principles in a simple and practical way by modeling smart home devices as objects with shared and specialized behaviors.
-
-The application runs entirely in the terminal and focuses on **clarity of design rather than complexity**.
+<small>This documentation is written so that **any new team member can understand the project without prior context**.</small>
 
 ---
 
-## Technologies Used
+## <small>Introduction</small>
 
-- **Programming Language:** C++
-- **Paradigm:** Object-Oriented Programming (OOP)
-- **Compiler:** GCC / G++
-- **Platform:** Cross-platform (Windows, Linux, macOS)
-- **Interface:** Command-line (Menu Driven)
+<small>Modern software systems are built using object-oriented design to ensure modularity and scalability.  
+This project applies those principles in a simple and practical way by modeling smart home devices as objects with shared and specialized behaviors.</small>
 
----
-
-## Features
-
-The system allows users to:
-
-- Turn smart devices ON and OFF
-- Control device-specific settings:
-  - Light brightness
-  - Fan speed
-  - Thermostat temperature
-- View the current status of all devices
-- Interact with the system using a simple menu
+<small>The application runs entirely in the terminal and focuses on **clarity of design rather than complexity**.</small>
 
 ---
 
-## Keyboard / Menu Controls
+## <small>Technologies Used</small>
 
-The program is operated using numeric menu options:
+<small>✨ **Programming Language:** C++  
+✨ **Paradigm:** Object-Oriented Programming (OOP)  
+✨ **Compiler:** GCC / G++  
+✨ **Platform:** Cross-platform (Windows, Linux, macOS)  
+✨ **Interface:** Command-line (Menu Driven)</small>
+
+---
+
+## <small>Features</small>
+
+<small>⚡ The system allows users to:</small>  
+
+<small>🌟 Turn smart devices ON and OFF  
+🌟 Control device-specific settings:  
+  💡 Light brightness  
+  🌬️ Fan speed  
+  🌡️ Thermostat temperature  
+🌟 View the current status of all devices  
+🌟 Interact with the system using a simple menu</small>
+
+---
+
+## <small>Keyboard / Menu Controls</small>
+
+<small>The program is operated using numeric menu options:</small>  
 
 | Option | Action |
 |------|-------|
@@ -71,55 +73,53 @@ The program is operated using numeric menu options:
 
 ---
 
-## Development Process (How This Was Built)
+## <small>Development Process (How This Was Built)</small>
 
-1. **Problem Breakdown**
-   - Identified common smart home devices
-   - Defined shared behaviors (ON/OFF, status)
+<small>🔹 **Problem Breakdown**  
+  🎯 Identified common smart home devices  
+  🎯 Defined shared behaviors (ON/OFF, status)</small>
 
-2. **Class Design**
-   - Created a base `Device` class
-   - Derived specialized classes (`Light`, `Fan`, `Thermostat`)
+<small>🔹 **Class Design**  
+  🎯 Created a base `Device` class  
+  🎯 Derived specialized classes (`Light`, `Fan`, `Thermostat`)</small>
 
-3. **OOP Implementation**
-   - Used inheritance to avoid code duplication
-   - Applied encapsulation to protect device data
-   - Used polymorphism via base class pointers
+<small>🔹 **OOP Implementation**  
+  🎯 Used inheritance to avoid code duplication  
+  🎯 Applied encapsulation to protect device data  
+  🎯 Used polymorphism via base class pointers</small>
 
-4. **Controller Logic**
-   - Implemented a `SmartHome` controller to manage devices
+<small>🔹 **Controller Logic**  
+  🎯 Implemented a `SmartHome` controller to manage devices</small>
 
-5. **User Interaction**
-   - Added a menu-driven interface for user input
-   - Connected menu actions to device methods
-
----
-
-## What We Learned
-
-- How to design a clean class hierarchy
-- Proper use of inheritance and method reuse
-- How polymorphism simplifies device management
-- Writing readable and maintainable C++ code
-- Structuring a small project for team collaboration
+<small>🔹 **User Interaction**  
+  🎯 Added a menu-driven interface for user input  
+  🎯 Connected menu actions to device methods</small>
 
 ---
 
-## Possible Improvements
+## <small>What We Learned</small>
 
-This project can be extended in several ways:
-
-- Add more devices (Smart TV, Door Lock, Camera)
-- Store device states using file handling
-- Convert menu system into a GUI
-- Split code into header (`.h`) and implementation (`.cpp`) files
-- Add user authentication
-- Introduce scheduling (timers for devices)
+<small>✨ How to design a clean class hierarchy  
+✨ Proper use of inheritance and method reuse  
+✨ How polymorphism simplifies device management  
+✨ Writing readable and maintainable C++ code  
+✨ Structuring a small project for team collaboration</small>
 
 ---
 
-## How to Run the Project
+## <small>Possible Improvements</small>
 
-### Step 1: Compile
+<small>🌟 Add more devices (Smart TV, Door Lock, Camera)  
+🌟 Store device states using file handling  
+🌟 Convert menu system into a GUI  
+🌟 Split code into header (`.h`) and implementation (`.cpp`) files  
+🌟 Add user authentication  
+🌟 Introduce scheduling (timers for devices)</small>
+
+---
+
+## <small>How to Run the Project</small>
+
+### <small>Step 1: Compile</small>
 ```bash
 g++ smart_home_menu.cpp -o smart_home
